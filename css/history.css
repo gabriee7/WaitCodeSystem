@@ -21,6 +21,7 @@ html, body {
 
 #history-container h1{
     /* margin-top: 100%; */
+    text-align: center;
     align-self: self-end !important;
 }
 
