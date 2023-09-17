@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamador de Senhas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./img/logo.jpeg" alt="logomarca" id="logo">
+
+        <h1>Chamador de Senhas</h1>
+        <p>Insira a senha a ser chamada:</p>
+        <input type="text" id="customer-pwd" placeholder="Senha do Cliente">
+        <button id="call-button">Chamar Cliente</button>
+        <button id="reset-button">Limpar Histórico</button>
+
+        <h1>Histórico de Chamadas</h1>
+        <ul id="history-list-index">
+        </ul>
+    </div>
+    <!-- lembrar de permitir audio no chrome para os dois arquivos html    -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
